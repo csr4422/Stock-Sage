@@ -1,5 +1,1 @@
-pathlib
-yfinance
-Prophet
-plotly
 
