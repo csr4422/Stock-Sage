@@ -1,4 +1,4 @@
 yfinance
-prophet
+Prophet
 plotly
-graph_objs
+
