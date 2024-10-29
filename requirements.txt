@@ -1,3 +1,4 @@
 yfinance
 Prophet
 plotly
+prophet.plot
