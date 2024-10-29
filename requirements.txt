@@ -1,3 +1,4 @@
+pathlib
 yfinance
 Prophet
 plotly
