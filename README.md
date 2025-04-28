@@ -32,5 +32,5 @@ Install the required dependencies:
 
 pip install (required libraries)
 
-#Streamlit Access link
+# Streamlit Access link
 https://stockpredictorxyz.streamlit.app
