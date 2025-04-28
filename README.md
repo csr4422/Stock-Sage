@@ -12,10 +12,10 @@ Make predictions about future stock prices.
 The stock price prediction is powered by an API called FB Prophet that uses machine learning models trained on historical data, which can predict future stock trends based on factors like previous price movements.
 
 # Technologies Used
-Python: Programming language used to implement the machine learning models and backend logic.
-Streamlit: Used for building the interactive user interface.
-plotly: For visualizing stock price trends.
-yfinance / FB Prophet : For fetching and predicting live stock data.
+#Python: Programming language used to implement the machine learning models and backend logic.
+#Streamlit: Used for building the interactive user interface.
+#plotly: For visualizing stock price trends.
+#yfinance / FB Prophet : For fetching and predicting live stock data.
 
 # Installation Instructions
 To get started with this project locally, follow these steps:
