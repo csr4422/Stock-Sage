@@ -46,7 +46,7 @@ if load_button:
         st.stop()
     
   #  st.write("Data columns:", data.columns.tolist())
-    st.write("Data shape:", data.shape)
+    #st.write("Data shape:", data.shape)
     
     st.subheader('Raw data')
     st.write(data.tail())
@@ -81,10 +81,10 @@ if load_button:
     df_train = df_train.rename(columns={"Date": "ds", "Close": "y"})
     
     #st.write("Data shape:", df_train.shape)
-    st.write("Data types:")
-    st.write(df_train.dtypes)
-    st.write("Sample data:")
-    st.write(df_train.head())
+    #st.write("Data types:")
+    #st.write(df_train.dtypes)
+    #st.write("Sample data:")
+    #st.write(df_train.head())
     
     if len(df_train) < 2:
         st.error("Not enough data points for forecasting. Please select a different stock or date range.")
@@ -99,15 +99,15 @@ if load_button:
         )
         
         # Additional debugging
-        st.write("Training Prophet model...")
-        st.write(f"Training data shape: {df_train.shape}")
-        st.write(f"Date range: {df_train['ds'].min()} to {df_train['ds'].max()}")
+        #st.write("Training Prophet model...")
+       # st.write(f"Training data shape: {df_train.shape}")
+       # st.write(f"Date range: {df_train['ds'].min()} to {df_train['ds'].max()}")
         
         m.fit(df_train)
         
         future = m.make_future_dataframe(periods=period)
         
-        st.write("Making predictions...")
+        #st.write("Making predictions...")
         forecast = m.predict(future)
         
         st.subheader('Forecast data')
