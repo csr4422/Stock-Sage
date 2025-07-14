@@ -1,3 +1,6 @@
 yfinance
 Prophet
 plotly
+streamlit
+pathlib
+datetime
